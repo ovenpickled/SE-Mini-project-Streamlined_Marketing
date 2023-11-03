@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamlined Marketing</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <style>
+        .navbar {
+            background-color: whitesmoke;
+            
+        }
+
+        .navbar-brand {
+            color: black;
+        }
+
+        .navbar-brand:hover {
+            color: #ccc;
+        }
+
+        .btn-primary {
+            background-color: #333;
+            border-color: #333;
+            background-image: url(backdrop.jpg);
+        }
+
+        .btn-primary:hover {
+            background-color: #555;
+            border-color: #555;
+        }
+
+        .btn-secondary {
+            background-color: #fff;
+            border-color: #fff;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background-color: #ccc;
+            border-color: #ccc;
+        }
+
+        .bg-primary {
+            background-color: #333 !important;
+            background-image: linear-gradient(#ffafbd,#ffc3a0);
+        }
+
+        .text-primary {
+            color: #333 !important;
+        }
+
+        .text-secondary {
+            color: #fff !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Streamlined Marketing</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-primary text-secondary p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Streamlined Marketing</h1>
+                    <p>Market your Website and increase your audience using our services!</p>
+                    <a href="#" class="btn btn-secondary">Get Started</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center">Features</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Feature 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Feature 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Feature 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="bg-primary text-secondary p-5">
+        <div class="container">
+            <h2 class="text-center">Pricing</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Basic</h3>
+                    <p>100 Emails
+                        500 Contacts
+                        Standard support
+                    </p>
+                    <p><strong>$49/month</strong></p>
+                    <a href="#" class="btn btn-secondary">Get Started</a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Pro</h3>
+                    <p>500 Emails
+                        1,000 Contacts
+                        Standard support
+                    </p>
+                    <p><strong>$99/month</strong></p>
+                    <a href="#" class="btn btn-secondary">Get Started</a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Enterprise</h3>
+                    <p>Unlimited Emails, Unlimited Contacts, Premium support</p>
+                    <p><strong>$199/month</strong></p>
+                    <a href="#" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3>Contact Information</h3>
+                    <p>123 Main St, Anytown, USA</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@streamlinedmarketing.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-secondary p-5">
+        <div class="container">
+            <p class="text-center">&copy; 2021 Streamlined Marketing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
